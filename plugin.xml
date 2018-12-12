@@ -33,7 +33,7 @@
 
     <!-- ANDROID CONFIGURATION -->
     <platform name="android">
-		<hook type="after_plugin_install" src="scripts/after_plugin_install.js" />
+		<hook type="after_plugin_install" src="scripts/after_install.js" />
 		<config-file target="AndroidManifest.xml" parent="/manifest/application">
 			<activity android:exported="true" android:name="com.gae.scaffolder.plugin.FCMPluginActivity" android:launchMode="singleTop">
 				<intent-filter>
