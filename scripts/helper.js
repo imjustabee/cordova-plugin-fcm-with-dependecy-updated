@@ -46,7 +46,7 @@ module.exports = {
     var buildGradle = readRootBuildGradle();
 
     // Add Google's Services Repo
-    buildGradle = addRepos(buildGradle);
+    buildGradle = addPluginDeps(buildGradle);
 
 
 
