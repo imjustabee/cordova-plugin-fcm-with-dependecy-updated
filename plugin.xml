@@ -60,6 +60,8 @@
 
         <framework src="com.google.firebase:firebase-core:10.+" />
         <framework src="com.google.firebase:firebase-messaging:10.+" />
+        <framework src="com.google.android.gms:play-services-auth:10.+" />
+        <framework src="com.google.android.gms:play-services-identity:10+" />
 
 		<framework src="src/android/FCMPlugin.gradle" custom="true" type="gradleReference"/>
 
